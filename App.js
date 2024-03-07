@@ -1,12 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Title from './Title/index';
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Text>Carol</Text>
-      <Text>Carol</Text>
-      <Text></Text>
+      <Text>cleitin estora femea</Text>
+      <Title/>
+      
       <StatusBar style="auto" />
     </View>
   );
