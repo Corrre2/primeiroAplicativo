@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View , Button } from 'react-native';
 import Title from './Title/index';
 
 export default function App() {
@@ -8,8 +8,12 @@ export default function App() {
       <Text>Carol</Text>
       <Text>cleitin estora femea</Text>
       <Title/>
-      
+     <Button title='carol broxa'></Button>
+     
       <StatusBar style="auto" />
+      
+      
+      
     </View>
   );
 }
